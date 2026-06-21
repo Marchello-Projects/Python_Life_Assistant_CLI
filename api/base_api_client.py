@@ -1,5 +1,7 @@
 from abc import ABC, abstractmethod
+
 import requests
+
 
 class ApiClient(ABC):
     def __init__(self, base_url):
@@ -11,9 +13,9 @@ class ApiClient(ABC):
             response.raise_for_status()
             return response.json()
         except requests.exceptions.RequestException as error:
-            print(f"API request error: {error}") 
+            print(f"API request error: {error}")
             return None
-        
+
     @abstractmethod
     def get_data(self, query):
         pass
