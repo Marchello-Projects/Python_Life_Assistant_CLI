@@ -5,7 +5,7 @@ This pet project was created to refresh my Python knowledge after finishing my f
 ---
 
 > [!NOTE]
-> Python Assistant CLI is a console application that helps with everyday tasks directly from the terminal
+> Python Assistant CLI is a console application that helps with everyday tasks directly from the terminal.
 > The project includes weather checking, task management, and currency conversion using external APIs and a colorful terminal interface powered by Rich
 
 ## Technology Stack:
